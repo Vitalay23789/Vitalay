@@ -1,0 +1,48 @@
+@font-face {
+    font-family: f1;
+    src: url(../fonts/kingthings-christmas-2.ttf);
+}
+body {
+    background-image: linear-gradient(rgb(240, 68, 68), rgb(31, 181, 31), rgb(16, 16, 226));
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+    font-size: 45px;
+    color: aqua;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #123;
+    font-family: f1;
+}
+
+img {
+    width:200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: 2s;
+}
+
+img:hover {
+    transform: rotate(720deg);
+    transition: 2s;
+}
+section{
+    position:relative;
+    width: 200px;
+    margin:0 auto;
+
+}
+span{
+position: absolute;
+top: 81px;
+left: 4%;
+color: gold;
+font-size: 35px;
+text-shadow:1px 1px 0 #123 ;
+animation: anim 1s linear infinite;
+font-family: f1;
+}
+
